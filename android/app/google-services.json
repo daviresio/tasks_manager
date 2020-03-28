@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1008786889384",
+    "firebase_url": "https://todo-list-919f4.firebaseio.com",
+    "project_id": "todo-list-919f4",
+    "storage_bucket": "todo-list-919f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1008786889384:android:31f7030566808a3086809d",
+        "android_client_info": {
+          "package_name": "com.resio.todolistapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1008786889384-0328us24q74j33l1hfbj0rsb8cre5l69.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.resio.todolistapp",
+            "certificate_hash": "cf4ec003ba1cc1d134d6efca1e84348811f40b88"
+          }
+        },
+        {
+          "client_id": "1008786889384-gctu4sf21lcovfps5vio99av7s7cer5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBff_aGzo18qt5Iow-HusYUhpSXFwDKVUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1008786889384-gctu4sf21lcovfps5vio99av7s7cer5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
