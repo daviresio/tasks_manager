@@ -1,6 +1,7 @@
-import 'package:todolistapp/app/quick/quick_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:todolistapp/app/quick/quick_page.dart';
+
+import 'quick_controller.dart';
+import 'quick_page.dart';
 
 class QuickModule extends ChildModule {
   @override

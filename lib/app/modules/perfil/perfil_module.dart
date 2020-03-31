@@ -1,6 +1,7 @@
-import 'package:todolistapp/app/perfil/perfil_controller.dart';
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:todolistapp/app/perfil/perfil_page.dart';
+
+import 'perfil_controller.dart';
+import 'perfil_page.dart';
 
 class PerfilModule extends ChildModule {
   @override

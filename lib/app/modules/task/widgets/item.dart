@@ -22,8 +22,8 @@ class NoteListItem extends StatelessWidget {
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            SubTitleWidget('Go finish with Stephern', color: Colors.black87),
-            SubTitleWidget('9:00am'),
+            subTitleWidget('Go finish with Stephern', color: Colors.black87),
+            subTitleWidget('9:00am'),
           ],
         ),
         trailing: Container(

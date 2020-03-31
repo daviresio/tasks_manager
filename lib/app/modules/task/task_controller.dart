@@ -2,9 +2,9 @@ import 'package:mobx/mobx.dart';
 
 part 'task_controller.g.dart';
 
-class TaskController = _ListBase with _$ListController;
+class TaskController = _TaskBase with _$TaskController;
 
-abstract class _ListBase with Store {
+abstract class _TaskBase with Store {
   @observable
   int value = 0;
 

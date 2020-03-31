@@ -24,7 +24,7 @@ class _TaskPageState extends State<TaskPage> {
             direction: Axis.horizontal,
            mainAxisAlignment: MainAxisAlignment.center,
            children: <Widget>[
-             SubTitleWidget('Work List', fontSize: 20.0, color: Colors.white),
+             subTitleWidget('Work List', fontSize: 20.0, color: Colors.white),
            ],
           ),
           actions: <Widget>[

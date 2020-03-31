@@ -8,8 +8,8 @@ part of 'task_controller.dart';
 
 // ignore_for_file: non_constant_identifier_names, unnecessary_lambdas, prefer_expression_function_bodies, lines_longer_than_80_chars, avoid_as, avoid_annotating_with_dynamic
 
-mixin _$TaskController on _ListBase, Store {
-  final _$valueAtom = Atom(name: '_ListBase.value');
+mixin _$TaskController on _TaskBase, Store {
+  final _$valueAtom = Atom(name: '_TaskBase.value');
 
   @override
   int get value {
@@ -26,15 +26,15 @@ mixin _$TaskController on _ListBase, Store {
     }, _$valueAtom, name: '${_$valueAtom.name}_set');
   }
 
-  final _$_ListBaseActionController = ActionController(name: '_ListBase');
+  final _$_TaskBaseActionController = ActionController(name: '_TaskBase');
 
   @override
   void increment() {
-    final _$actionInfo = _$_ListBaseActionController.startAction();
+    final _$actionInfo = _$_TaskBaseActionController.startAction();
     try {
       return super.increment();
     } finally {
-      _$_ListBaseActionController.endAction(_$actionInfo);
+      _$_TaskBaseActionController.endAction(_$actionInfo);
     }
   }
 

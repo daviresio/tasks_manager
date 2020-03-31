@@ -99,8 +99,8 @@ class _LoginPageState extends State<LoginPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             SizedBox(height: 80.0,),
-            TitleWidget('Bem vindo'),
-            SubTitleWidget('Faca login para continuar')
+            titleWidget('Bem vindo'),
+            subTitleWidget('Faca login para continuar')
           ],
         ),
       ),
