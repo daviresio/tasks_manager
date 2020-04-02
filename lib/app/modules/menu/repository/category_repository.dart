@@ -3,7 +3,6 @@ import 'package:todolistapp/app/modules/menu/models/category_model.dart';
 import 'package:todolistapp/app/modules/menu/repository/category_repository_interface.dart';
 
 class CategoryRepository implements ICategoryRepository {
-
   final Firestore firestore;
 
   CategoryRepository(this.firestore);
@@ -16,5 +15,4 @@ class CategoryRepository implements ICategoryRepository {
       }).toList();
     });
   }
-
 }

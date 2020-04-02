@@ -20,4 +20,24 @@ abstract class _MenuBase with Store {
   void listAll() {
     categoryList = categoryRepository.listAll().asObservable();
   }
+
+
+  @observable
+  String newCategoryColorSelected = 'blue';
+
+  @action
+  void setNewCategoryColorSelected(String value) => newCategoryColorSelected = value;
+
+  @observable
+  String newCategoryTitle = 'blue';
+
+  @action
+  void setNewCategoryTitle(String value) => newCategoryTitle = value;
+
+  @action
+  void resetNewCategory() {
+    newCategoryColorSelected = 'blue';
+    newCategoryTitle = '';
+  }
+
 }

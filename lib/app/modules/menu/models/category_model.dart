@@ -10,9 +10,13 @@ class CategoryModel {
 
   factory CategoryModel.fromDocument(DocumentSnapshot doc) {
     return CategoryModel(
-      title: doc['title'], color: doc['color'], reference: doc['reference']
+      title: doc['title'], color: doc['color'], reference: doc.reference
     );
   }
+
+  CategoryModel.fromJson(Map<String, dynamic> json)
+    : title = json['title'],
+      color = json['color'];
 
   Map<String, dynamic> toJson() => {
     'title': title,
@@ -35,7 +39,6 @@ class CategoryModel {
       CategoryModel(title: 'Home', color: 'green'),
       CategoryModel(title: 'Meet', color: 'purple'),
     ];
-
     return categories;
   }
 
